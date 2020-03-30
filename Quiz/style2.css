@@ -1,0 +1,41 @@
+table {
+    border-spacing: 0px;
+}
+td {
+    
+    border: solid 5px blue;
+    width: 100px;
+    height: 150px;
+}
+
+.sami {
+    opacity: 0%;
+}
+
+.erti {
+    background-color: greenyellow;
+}
+
+.ori {
+    background-color: red;
+    border-top: none;
+    border-right: none;
+}
+
+.otxi {
+    background-color: pink;
+    border-top: none;
+    border-left: none;
+}
+
+.xuti {
+    border-top: none;
+}
+
+#ragac {
+    border-right: none;
+}
+
+.eqvsi {
+    border-top: none;
+}

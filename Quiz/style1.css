@@ -1,0 +1,42 @@
+.one {
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow white yellow green;
+}
+.one span {
+    text-decoration: line-through underline;
+    background-color: red;
+    color: blue;
+    font-size: 400%;
+}
+
+p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.two {
+    border: dotted 2px green;
+    margin: 20px 0px 20px 0px;
+}
+
+.three {
+    border: dotted 2px green;
+    margin: 20px 0px 20px 0px;
+}
+
+.four {
+    height: 50px;
+    background-color: blue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.five {
+    height: 50px;
+    background-color: green;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
