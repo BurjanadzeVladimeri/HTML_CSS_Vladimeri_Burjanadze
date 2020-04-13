@@ -1,0 +1,22 @@
+div {
+    border: solid 10px black;
+    min-height: 200px;
+    width: 400px;
+    margin: auto;
+}
+
+.padding1 {
+    padding:  20px 40px 60px 80px;
+}
+
+.padding2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.innerdiv {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: unset;
+}
