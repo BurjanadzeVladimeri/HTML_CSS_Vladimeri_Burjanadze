@@ -1,0 +1,36 @@
+table {
+    border-spacing: 0px;
+    border: solid 3px black;
+    width: 510px;
+    height: 310px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    border: solid 3px black;
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    border: solid 3px black;
+}
+
+.grey {
+    background-color: grey;
+    border: solid 3px black;
+}
+
+.green {
+    background-color: green;
+    border: solid 3px black;
+}
+
+.blue {
+    border: solid 3px black;
+    background-color: blue;
+}

@@ -1,0 +1,42 @@
+table {
+    width: 900px;
+    border-spacing: 0px;
+}
+
+td {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    border: solid 5px red;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.under {
+    color: red;
+    text-decoration: underline;
+}
+
+.sami {
+    border-top: none;
+}
+
+.ori {
+    border-left: none;
+}

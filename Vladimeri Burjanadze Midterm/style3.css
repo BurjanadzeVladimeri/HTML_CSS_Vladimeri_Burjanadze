@@ -1,0 +1,25 @@
+div {
+    margin: 50px;
+}
+
+.erti {
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    border: dotted 5px red;
+}
+
+.ori {
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    border-top: dotted 5px red;
+    border-left: solid 5px green;
+    border-bottom: dashed 5px blue;
+}
+
+.sami {
+    width: 0px;
+    border: solid 50px black;
+    border-color: red yellow blue green;
+}

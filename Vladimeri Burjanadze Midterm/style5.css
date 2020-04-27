@@ -1,0 +1,25 @@
+.main {
+    border: solid 3px black;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+}
+.shida {
+    margin: auto;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #c0c0c0;
+    border-bottom: solid 1px blue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
