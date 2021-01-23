@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Register</title>
+</head>
+<body>
+
+    <div id="foni">
+    
+    
+    <!-- navigation -->
+
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="name">FA <span class="small">Film Advisor</span></h1>
+
+                <ul class="navmenu" id="kam">
+                    <li><a href="index.html" class="nav-links">მთავარი</a></li>
+                    <li><a href="index.html" class="nav-links">დღის ფილმები</a></li>
+                    <li><a href="index.html" class="nav-links">კატეგორიები</a></li>
+                    <li><a href="index.html" class="nav-links">ჩვენს შესახებ</a></li>
+                    <li><a href="index.html" class="nav-links">კონტაქტი</a></li>
+                    <li><a href="index.html" class="nav-links">ავტორიზაცია</a></li>
+                    <li><a href="register.html" class="nav-links">რეგისტრაცია</a></li>
+                    <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+                </ul>
+
+                <ul class="navmenu sufta en" id="enm">
+                    <li><a href="index.html" class="nav-links">Home</a></li>
+                    <li><a href="index.html" class="nav-links">Film Of The day</a></li>
+                    <li><a href="index.html" class="nav-links">Categories</a></li>
+                    <li><a href="index.html" class="nav-links">About Us</a></li>
+                    <li><a href="index.html" class="nav-links">Contact Us</a></li>
+                    <li><a href="index.html" class="nav-links">Sign in</a></li>
+                    <li><a href="register.html" class="nav-links">sign up</a></li>
+                    <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+                </ul>
+
+                <nav class="menu"  onclick="onoff()">
+                    <div class="burger"></div>
+                </nav>
+
+        </div>
+    </div>
+
+
+
+    <div class="regcontainer">
+
+        <h1 class="name" id="registername">FA <span class="small">Film Advisor</span></h1>
+        <h3 class="textregister">რეგისტრაცია</h2>
+
+            <form class="forma">
+                <label for="username"><b>მომხმარებლის სახელი</b></label> <br>
+                <input type="text" placeholder="მომხმარებლის სახელი" name="username" id="username">
+                <br> <br>
+
+                <label for="email"><b>ელ.ფოსტა</b></label> <br>
+                <input type="text" placeholder="შეიტანეთ ელ.ფოსტა" name="email" id="email">
+                <br> <br>
+                
+                <div id="kubiki" class="sufta">
+                    <h3 id="shecdoma">asdasd</h3>
+                </div>
+
+                <br>
+                <label for="psw"><b>პაროლი</b></label> <br>
+                <input type="password" placeholder="შეიტანეთ პაროლი" name="psw" id="psw">
+                <br><br>
+
+                <label for="psw-repeat"><b>დაადასტურეთ პაროლი</b></label> <br>
+                <input type="password" placeholder="დაადასტურეთ პაროლი" name="psw-repeat" id="psw-repeat">
+                <br><br>
+
+                <label for="reg-date"><b>დაბადების თარიღი</b></label><br>
+                <input type="date" name="reg-date" id="reg-date">
+                <br><br>
+
+                <label for="country"><b>ქვეყანა</b></label> <br>
+                <input type="text" placeholder="ქვეყანა" name="country" id="country">
+                <br> <br>
+
+                <label for="city"><b>ქალაქი</b></label> <br>
+                <input type="text" placeholder="ქალაქი" name="city" id="city">
+                <br> <br>
+
+                <label for="number"><b>მობილურის ნომერი</b></label> <br>
+                <input type="text" placeholder="მობილურის ნომერი" name="number" id="number">
+                <br> <br>
+
+                <br>
+                <input type="button" value="რეგისტრაცია" class="nbutton" onclick="regcheck()">
+
+
+
+
+            </form>
+
+
+
+
+    </div>
+
+
+
+
+    
+    </div>
+
+    <div class="mobilemenu" id="navibar">
+        <ul id="mkam">
+            <li><a href="index.html" class="nav-links">მთავარი</a></li>
+            <li><a href="index.html" class="nav-links">დღის ფილმები</a></li>
+            <li><a href="index.html" class="nav-links">კატეგორიები</a></li>
+            <li><a href="index.html" class="nav-links">ჩვენს შესახებ</a></li>
+            <li><a href="index.html" class="nav-links">კონტაქტი</a></li>
+            <li><a href="index.html" class="nav-links">ავტორიზაცია</a></li>
+            <li><a href="register.html" class="nav-links">რეგისტრაცია</a></li>
+            <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+        </ul>
+
+        <ul class="sufta en" id="menm">
+            <li><a href="index.html" class="nav-links">Home</a></li>
+            <li><a href="index.html" class="nav-links">Film Of The day</a></li>
+            <li><a href="index.html" class="nav-links">Categories</a></li>
+            <li><a href="index.html" class="nav-links">About Us</a></li>
+            <li><a href="index.html" class="nav-links">Contact Us</a></li>
+            <li><a href="index.html" class="nav-links">Sign in</a></li>
+            <li><a href="register.html" class="nav-links">sign up</a></li>
+            <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

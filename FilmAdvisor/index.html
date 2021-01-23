@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Film Advisor</title>
+</head>
+<body>
+
+    <div id="foni">
+    
+    
+    <!-- navigation -->
+
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="name">FA <span class="small">Film Advisor</span></h1>
+
+                <ul class="navmenu" id="kam">
+                    <li><a href="index.html" class="nav-links">მთავარი</a></li>
+                    <li><a href="index.html" class="nav-links">დღის ფილმები</a></li>
+                    <li><a href="index.html" class="nav-links">კატეგორიები</a></li>
+                    <li><a href="index.html" class="nav-links">ჩვენს შესახებ</a></li>
+                    <li><a href="index.html" class="nav-links">კონტაქტი</a></li>
+                    <li><a href="index.html" class="nav-links">ავტორიზაცია</a></li>
+                    <li><a href="register.html" class="nav-links">რეგისტრაცია</a></li>
+                    <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+                </ul>
+
+                <ul class="navmenu sufta en" id="enm">
+                    <li><a href="index.html" class="nav-links">Home</a></li>
+                    <li><a href="index.html" class="nav-links">Film Of The day</a></li>
+                    <li><a href="index.html" class="nav-links">Categories</a></li>
+                    <li><a href="index.html" class="nav-links">About Us</a></li>
+                    <li><a href="index.html" class="nav-links">Contact Us</a></li>
+                    <li><a href="index.html" class="nav-links">Sign in</a></li>
+                    <li><a href="register.html" class="nav-links">sign up</a></li>
+                    <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+                </ul>
+
+                <nav class="menu"  onclick="onoff()">
+                    <div class="burger"></div>
+                </nav>
+
+        </div>
+    </div>
+
+
+    <!-- slider -->
+
+    <div class="slider">
+
+        <div class="slidercont">
+            <div class="sliderimage">
+                <img src="./images/1.jpg" alt="image">
+            </div>
+            <div class="sliderimage">
+                <img src="./images/2.jpg" alt="image">
+            </div>
+            <div class="sliderimage">
+                <img src="./images/3.jpg" alt="image">
+            </div>
+            <div class="sliderimage">
+                <img src="./images/4.jpg" alt="image">
+            </div>
+        </div>
+
+        
+        <div class="prevbtn"><i class="fas fa-chevron-left"></i></div>
+        <div class="nextbtn"><i class="fas fa-chevron-right"></i></div>
+
+    </div>
+
+
+    <div class="dots"></div>
+
+    <!--boxes-->
+    <h1 class="satauri" id="ka_dge">დღის ფილმები</h1>
+    <h1 class="satauri sufta" id="en_dge">Films Of The Day</h1>
+
+    <section>
+        <div class="flex">
+
+            <div class="boxes"><a href="https://www.imdb.com/title/tt0364569/?ref_=nv_sr_srsg_0" target="_blank"><img class="box box1" src="./images/oldboy.jpg" alt="image"></img></a><h2 class="satauri"><a href="https://www.imdb.com/title/tt0364569/?ref_=nv_sr_srsg_0" target="_blank">Oldboy</a></h2></div>
+            
+            <div class="boxes"><a href="https://www.imdb.com/title/tt0353969/?ref_=fn_al_tt_1" target="_blank"><img class="box box2" src="./images/memories.jpg" alt="image"></img></a><h2 class="satauri"><a href="https://www.imdb.com/title/tt0353969/?ref_=fn_al_tt_1" target="_blank">Memories Of Murder</a></h2></div>
+            
+            <div class="boxes"><a href="https://www.imdb.com/title/tt0266308/?ref_=nv_sr_srsg_0" target="_blank"><img class="box box3" src="./images/BR.jpg" alt="image"></img></a><h2 class="satauri"><a href="https://www.imdb.com/title/tt0266308/?ref_=nv_sr_srsg_0" target="_blank">Battle Royale</a></h2></div>
+            
+
+        </div>
+    </section>
+
+
+    <section class="banner">
+        <div class="reklama flex">
+            <p class="texti shida" id="katext">დარეგისტრირდი და მიიღე ნარჩევი ფილმები ყოველ დღე</p>
+            <p class="texti shida sufta" id="entext">Register and receive hand-picked films every day</p>
+            <button class="button shida" id="kabtn">დარეგისტრირდი</button>
+            <button class="button shida sufta en" id="enbtn">Sign Up</button>
+        </div>
+        <button class="zapaska" id="kazap">დარეგისტრირდი</button>
+        <button class="zapaska sufta en" id="enzap">Register</button>
+
+    </section>
+
+
+    <footer>
+        <p id="saxeli fut">Film Advisor</p>
+        <p class="copy fut">
+            © Copyright 2021 Vladimeri Burjanadze.
+        </p>
+    </footer>
+    
+    </div>
+
+    <div class="mobilemenu" id="navibar">
+        <ul id="mkam">
+            <li><a href="index.html" class="nav-links">მთავარი</a></li>
+            <li><a href="index.html" class="nav-links">დღის ფილმები</a></li>
+            <li><a href="index.html" class="nav-links">კატეგორიები</a></li>
+            <li><a href="index.html" class="nav-links">ჩვენს შესახებ</a></li>
+            <li><a href="index.html" class="nav-links">კონტაქტი</a></li>
+            <li><a href="index.html" class="nav-links">ავტორიზაცია</a></li>
+            <li><a href="register.html" class="nav-links">რეგისტრაცია</a></li>
+            <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+        </ul>
+
+        <ul class="sufta en" id="menm">
+            <li><a href="index.html" class="nav-links">Home</a></li>
+            <li><a href="index.html" class="nav-links">Film Of The day</a></li>
+            <li><a href="index.html" class="nav-links">Categories</a></li>
+            <li><a href="index.html" class="nav-links">About Us</a></li>
+            <li><a href="index.html" class="nav-links">Contact Us</a></li>
+            <li><a href="index.html" class="nav-links">Sign in</a></li>
+            <li><a href="register.html" class="nav-links">sign up</a></li>
+            <li><a href="#" onclick="ena()"><i class="fas fa-language"></i></a></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
